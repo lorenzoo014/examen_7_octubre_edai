@@ -5,7 +5,6 @@ from Ejercicio_1.Alumno import Alumno
 alumno1 = Alumno("Lorenzo",3)
 alumno2 = Alumno("Raúl",5)
 alumno3 = Alumno("Íñigo",7)
-print()
 
 def test_calificacion():
     assert alumno1.calificacion()==False
