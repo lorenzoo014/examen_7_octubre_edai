@@ -3,7 +3,7 @@ docstring:
 TENER EN CUENTA:
 aunque este archivo se llama test.py no va a realizar test solo se va a ejecutar el main
 
-intentaré modificar esto mas adelante
+intentaré modificar el pytest mas adelante
 """
 import pytest
 from Producto import Producto
