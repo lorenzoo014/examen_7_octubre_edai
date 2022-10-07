@@ -13,4 +13,4 @@ class Alumno():
             return False
 
     def __str__(self):
-        return "(El nombre es: {}, y su nota es: {})".format( self.nombre, self.calificacion )
+        return "(El nombre es: {}, y su nota es: {})".format( self.nombre, str(self.calificacion) )
