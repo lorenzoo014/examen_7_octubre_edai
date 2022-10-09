@@ -45,15 +45,15 @@ class Motocicleta(Bicicleta):
 
 
 
-# for vehiculo in lista_vehiculos:
-#     print(str(vehiculo))
+
 
 
 #----------funcion_catalogar----------#
-def catalogar(lista):
-    for vehiculo in lista:
-        informacion = "El vehiculo es un "+ type(vehiculo).__name__+" y sus atributos son: "+ str(vehiculo)
-        print(informacion)
+
+# def catalogar(lista):
+#     for vehiculo in lista:
+#         informacion = "El vehiculo es un "+ type(vehiculo).__name__+" y sus atributos son: "+ str(vehiculo)
+#         print(informacion)
 
 #----------funcion_catalogar_polimorfismo_de_sobrecarga----------#
 def catalogar(lista, ruedas):
@@ -68,4 +68,3 @@ def catalogar(lista, ruedas):
     if(contador ==0):
         print("No hay ningun vehiculo con {} ruedas".format(str(ruedas)))
     print("Por lo tanto, se han encontrado {} vehiculos con {} ruedas".format(str(contador),str(ruedas)))
-

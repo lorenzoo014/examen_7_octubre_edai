@@ -1,7 +1,7 @@
 #lanzador
 import sys
 sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/1.EDAI_2/examen_7_octubre_edai")
-from Vehiculo import Vehiculo,Camioneta,Bicicleta,Motocicleta,Coche,catalogar,catalogar
+from Vehiculo import Camioneta,Bicicleta,Motocicleta,Coche,catalogar
 
 
 
@@ -29,8 +29,8 @@ def pruebas():
         opcion = input("> ")
         #--------1era_opcion--------#
         if opcion == "1":
-            print("\nComprobamos la funcion catalogar: ")
-            catalogar(lista_vehiculos)
+            # print("\nComprobamos la funcion catalogar: ")
+            # Vehiculos.catalogar(lista_vehiculos)
             print("\n Comprobamos la funcion catalogar con el polimorfismo de sobreecarga correspondiente : ")
             catalogar(lista_vehiculos, 2)
             catalogar(lista_vehiculos, 4)
