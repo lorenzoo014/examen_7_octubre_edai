@@ -1,6 +1,6 @@
 #lanzador
 import sys
-sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/1.EDAI_2/examen_7_octubre_edai")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/1.EDAI_2/examen_7_octubre_edai/Ejercicio_5")
 from Vehiculo import Camioneta,Bicicleta,Motocicleta,Coche,catalogar
 
 
